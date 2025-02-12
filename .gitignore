@@ -6,3 +6,5 @@
 /CurrencyConverterAPI/bin/Debug/net8.0
 /CurrencyConverterAPI/obj
 /.vs
+/CurrencyConverterAPI.Tests/bin/Debug/net8.0
+/CurrencyConverterAPI.Tests/obj
