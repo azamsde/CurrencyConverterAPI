@@ -11,6 +11,7 @@ namespace CurrencyConverterAPI
             services.AddHttpClient<ICurrencyService, CurrencyService>();
             services.AddMemoryCache();
             services.AddSingleton<IRetryPolicyService, RetryPolicyService>();
+            services.AddSingleton<ILoggerFactory, LoggerFactory>();
 
             services.AddSwaggerGen(c =>
             {
